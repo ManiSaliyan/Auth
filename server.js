@@ -10,7 +10,7 @@ const port = process.env.PORT||3000;
 app.use(bodyParser.json());
 app.use(cors());
 app.use('/user',UserRoute)
-
+module.exports = app;
 app.listen(port,()=>{
     console.log(`server running on PORT: ${port}`)
 })
