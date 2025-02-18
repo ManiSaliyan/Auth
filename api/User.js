@@ -135,4 +135,5 @@ router.post('/sighin',(req,res)=>{
     }
 })
 }
+userRoute();
 export default userRoute;
