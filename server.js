@@ -2,7 +2,7 @@
 //import express from 'express';
 //import UserRoute from './api/User.js';
 //import bodyParser from 'express';
-import cors from 'cors';
+const cors = require('cors');
 //const app = express();
 const port = process.env.PORT||3000;
 
